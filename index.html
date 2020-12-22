@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Blog főoldal">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" type="text/css" href="blogstyle.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<script src="blog-script.js"></script>
+  <title>Blog főoldal</title>
+</head>
+<body>
+
+<div class="header">
+
+  <div class="logobar">
+  
+    <a href="#"><img class="logo" src="assets/logo_50.svg" alt="Logo"></a>
+		<a class="button subscribe" href="#">Subscribe</a>
+
+  </div>
+  
+  <div class="menu">
+	
+		<button onclick="myFunction()" class="button mobile">Categories</button>
+		
+		<div class="dropdown">
+			<ul id="resp-dropdown" class="dropdown-content">
+				<li><a class="active" href="#">Business</a></li>
+				<li><a href="#">Culture</a></li>
+				<li><a href="#">Design</a></li>
+				<li><a href="#">Health</a></li>
+				<li><a href="#">Politics</a></li>
+				<li><a href="#">Science</a></li>
+				<li><a href="#">Travel</a></li>
+				<li><a href="#">World</a></li>
+			</ul>
+		</div>
+  
+    <ul class="desktop">
+      <li><a class="active" href="#">Business</a></li>
+      <li><a href="#">Culture</a></li>
+      <li><a href="#">Design</a></li>
+      <li><a href="#">Health</a></li>
+      <li><a href="#">Politics</a></li>
+      <li><a href="#">Science</a></li>
+      <li><a href="#">Travel</a></li>
+      <li><a href="#">World</a></li>
+    </ul>
+  
+  </div> 
+
+</div>
+
+<div class="main">
+
+	<div class="articles">
+	
+		<div class="featured">
+		
+			<div class="data">
+			
+				<div class="info white">April 4, 2020 / by Amy / 0 Comments</div>
+				<div class="title white">Featured blog post</div>
+				<div class="text white">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et.</div>
+			
+				<a class="button read-white" href="#">Read more</a>
+			
+			</div>
+			
+		</div>
+		
+		<div class="topics-container">
+		
+			<a class="topic-box" href="#">
+			
+				<img class="pics topics-img" src="assets/samson-ZGjbiukp_-A-unsplash.jpg" alt="skyscraper">
+				<div class="topics-name">Business</div>
+				<div class="text short">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</div>
+
+			</a>
+			
+			<a class="topic-box" href="#">
+			
+				<img class="pics topics-img" src="assets/vitaliy-lyubezhanin-gfVofr15ICc-unsplash.jpg" alt="hands">
+				<div class="topics-name">Culture</div>
+				<div class="text short">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</div>
+
+			</a>
+		
+		</div>
+		
+		<div class="post">
+		
+			<div class="post-data">
+		
+				<div class="info gray">March 3, 2020 / by Marc / 8 Comments</div>
+				<div class="title">Featured blog post</div>
+				<div class="text">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,</div>
+				
+				<a class="button read-purple" href="#">Read more</a>
+			
+			</div>
+		
+		</div>
+		
+		<div class="post">
+		
+			<img class="cover" src="assets/sean-o-KMn4VEeEPR8-unsplash.jpg" alt="beach">
+			
+			<div class="post-data">
+		
+				<div class="info gray">Febrary 2, 2020 / by Jacob / 14 Comments</div>
+				<div class="title">Blog post with image</div>
+				<div class="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et.</div>
+			
+				<a class="button read-purple" href="#">Read more</a>
+				
+			</div>
+		
+		</div>
+		
+		<div class="post">
+		
+			<div class="post-data">
+		
+				<div class="info gray">January 1, 2020 / by Chris / 7 Comments</div>
+				<div class="title">Another blog post</div>
+				<div class="text">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr</div>
+				
+				<a class="button read-purple" href="#">Read more</a>
+				
+			</div>
+		
+		</div>
+	
+	</div>
+	
+	<div class="sidebar">
+	
+		<div class="latest">
+		
+			<div class="topic-title">Latest news</div>
+		
+			<a class="side-box" href="#">
+			
+				<img class="pics topics" src="assets/younes-barri-zsHPnX2zstw-unsplash.jpg" alt="woman clothes">
+				<div class="topics-name">Design</div>
+				<div class="text short">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</div>
+
+			</a>
+			
+			<a class="side-box" href="#">
+			
+				<img class="pics topics" src="assets/boxed-water-is-better-cXJCpV2Jv1Y-unsplash.jpg" alt="milk box">
+				<div class="topics-name">Health</div>
+				<div class="text short">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</div>
+
+			</a>
+			
+			<a class="side-box" href="#">
+			
+				<img class="pics topics" src="assets/marco-oriolesi-wqLGlhjr6Og-unsplash.jpg" alt="meeting room">
+				<div class="topics-name">Politics</div>
+				<div class="text short">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</div>
+
+			</a>	
+			
+			<a class="view-all" href="#">View all news</a>
+		
+		</div>
+		
+		<div class="recommended">
+		
+			<div class="topic-title">Recommended news</div>
+		
+			<a class="side-box" href="#">
+			
+				<img class="pics topics" src="assets/hal-gatewood-OgvqXGL7XO4-unsplash.jpg" alt="electric">
+				<div class="topics-name">Sience</div>
+				<div class="text short">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</div>
+
+			</a>
+			
+			<a class="side-box" href="#">
+			
+				<img class="pics topics" src="assets/tom-barrett-M0AWNxnLaMw-unsplash.jpg" alt="view from an airplane">
+				<div class="topics-name">Travel</div>
+				<div class="text short">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</div>
+
+			</a>
+			
+			<a class="side-box" href="#">
+			
+				<img class="pics topics" src="assets/nasa-Q1p7bh3SHj8-unsplash.jpg" alt="Earth from space">
+				<div class="topics-name">World</div>
+				<div class="text short">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</div>
+
+			</a>
+			
+			<a class="view-all" href="#">View all news</a>
+		
+		</div>
+		
+		<div class="categories">
+		
+			<div class="topic-title">Categories</div>
+		
+			<ul>
+				<li><a href="#">Business</a></li>
+				<li><a href="#">Culture</a></li>
+				<li><a href="#">Design</a></li>
+				<li><a href="#">Health</a></li>
+				<li><a href="#">Politics</a></li>
+				<li><a href="#">Science</a></li>
+				<li><a href="#">Travel</a></li>
+				<li class="last-link"><a href="#">World</a></li>
+			</ul>
+			
+			<a class="view-all" href="#">See all</a>
+			
+		</div>
+	
+	</div>
+
+</div>
+
+<div class="footer">
+
+	© 2020 Copyright <span class="purple">Sample Brand Name</span> / Design by <span class="purple">Beniboy48</span>
+
+</div>
+
+</body>
+</html>
